@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped narrow down what lines have changed by showing side by side
+    comparisons of the differences between the new file with the old file.
+    Without the side by side comparison I would of had to traverse through the
+    entirety of both files which could take up precious time.
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If there is a bug that pops up in a new version of a file I can easily
+    track what changed to see how the bug was introduced. It lets me skip over
+    looking at the entire file and only look at the parts which changed.
+    You can always easily go back to a previous version if needed. You can also
+    easily see the growth and change of the file over time to track progress on
+    a project or even learn from previous mistakes made to. Recovering a
+    previous file can also be useful when the new file you work on gets lost or
+    corrupted for some reason, always should have a backup.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    The pros of manually choosing when to commit is your commits will happen at
+    better checkpoints as opposed to automated intervals. The cons can be user
+    error like committing too often or not committing enough.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    When working on Google Doc the user is more likely to be only working on
+    one file at a time. This file might have multiple pages to it but all the
+    pages are wrapped up into one file. Thus only one file needs to be tracked.
+    Git allows saving of multiple files because most technical projects require
+    more than one file that are all interconnected such as an HTML, CSS, and
+    JavaScript file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log and git diff can be used to figure out changes made between two
+    files. Git log will show all of the commits made of the files being tracked.
+    From here you can grab the two commit ID's in order to use git diff which
+    will highlight the changes between the two different commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If I were to break something in the code I could always go back and
+    "checkout" older versions of the code in order to find where the bug was
+    introduced if I didn't catch it right away.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using Git for any projects that require multiple files
+    that all work together. Saving every single copy of every file would be a
+    pain otherwise. I wouldn't want to use Git if I was just working on a paper
+    or writing up a spreadsheet.
