@@ -29,6 +29,16 @@ How do the diagrams help you visualize the branch structure?
     The diagrams help visualize the parents of each commit. It allows you to
     see which commits are reachable and which are not.
 
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    The result of merging two branches is a commit that has its parents
+    attached to the head of all the branches that are part of the merge.
+    They represent commits as bubbles and arrows point to their parents. When
+    the two braches were merged, another bubble was formed and two arrows were
+    then drawn both pointing at the two different branches: master and coin.
+    The end resulting new branch was then named master.
+
 Style Guide for Commit Messages:
 
     A commit messages consists of three distinct parts separated by a blank
