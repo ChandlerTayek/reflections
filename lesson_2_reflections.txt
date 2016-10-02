@@ -24,6 +24,11 @@ organized? How would branches help?
     current repo which allows space for experimentation which can later be
     merged with the main project.
 
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams help visualize the parents of each commit. It allows you to
+    see which commits are reachable and which are not.
+
 Style Guide for Commit Messages:
 
     A commit messages consists of three distinct parts separated by a blank
