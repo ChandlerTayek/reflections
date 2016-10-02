@@ -5,14 +5,16 @@ What happens when you initialize a repository? Why do you need to do it?
     its Git information. You need a directory, currently be in that directory,
     and run the command git init.
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical
+change?
 
     The staging area will show you which files are being tracked and ready to
     be committed. This area will also show you if any files being tracked have
-    any changes with them. Using the git diff --staged command one can see the
+    any changes with them. Using the git diff --staged command, one can see the
     differences between the staging area and the repository to ensure one
-    logical change is being committed. Git diff will also show you
-    if any files have been changed and not added to the staging area.
+    logical change is being committed. Git diff with an empty argument will
+    also show you the difference between what is in the staging area and your
+    working directory.
 
 Style Guide for Commit Messages:
 
