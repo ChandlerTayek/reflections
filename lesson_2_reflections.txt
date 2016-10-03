@@ -39,6 +39,14 @@ the diagram the way we do?
     then drawn both pointing at the two different branches: master and coin.
     The end resulting new branch was then named master.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Sometimes the files will have a merge conflict that the user has to go
+    through and resolve. The nice thing about the automatic merging process is
+    that it will automatically add or remove any lines that were add or removed.
+
+
 Style Guide for Commit Messages:
 
     A commit messages consists of three distinct parts separated by a blank
