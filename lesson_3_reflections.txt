@@ -5,3 +5,10 @@ work local?
     machines rather than the one with your original copy. This will also allow
     others to view your project and even contribute to it if the project is
     public.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    It might make it easier to keep track (mentally) of your local directory if
+    you pull manually.
