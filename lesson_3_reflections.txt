@@ -1,1 +1,7 @@
-When would you want to create a remote repository rather than keeping all your work local?
+When would you want to create a remote repository rather than keeping all your
+work local?
+
+    A remote repository will allow you to access your repository on other
+    machines rather than the one with your original copy. This will also allow
+    others to view your project and even contribute to it if the project is
+    public.
