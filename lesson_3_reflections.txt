@@ -13,3 +13,13 @@ automatically stay up-to-date with your remote repository?
     It might make it easier to keep track (mentally) of your local directory if
     you pull manually. Having automatic pulls could also create conflicts in a
     live project.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+    You would use forks when you want to make a copy of a repository on github.
+    Making a copy from a local repo to a local repo would be a clone as well as
+    copying a repo on Github to your local machine. A branch would be when you
+    want to create a new feature or try to fix a big bug. The branches help
+    keep the work separate so that it doesn't interfere with the running
+    working project.
