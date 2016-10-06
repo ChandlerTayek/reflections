@@ -23,3 +23,10 @@ use one instead of another?
     want to create a new feature or try to fix a big bug. The branches help
     keep the work separate so that it doesn't interfere with the running
     working project.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    If you somehow lose internet access you can still know what the last updated
+    position of the remote was. This can be useful in being able to continue
+    work in areas without internet connectivity.
